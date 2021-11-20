@@ -39,15 +39,6 @@ class LoginPage extends GetView<LoginController> {
                     onPressed: () => controller.login(),
                   ),
                 ),
-                Obx(() {
-                  return Text(
-                    controller.name.value,
-                    style: const TextStyle(
-                      color: Colors.white,
-                      fontSize: 20,
-                    ),
-                  );
-                }),
               ],
             ),
           ),
